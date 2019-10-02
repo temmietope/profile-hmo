@@ -47,7 +47,7 @@ class AutoCompleteDropDown extends React.Component {
         <input
           type="text"
           className="input__style_1 input__search"
-          placeholder={placeholder || "&#xf002; Find a Provider"}
+          placeholder={placeholder || "Find a Provider"}
         />
         {isLoading && <img src={LOADER} className="loader" alt="loading" />}
 
