@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## SET UP:
+To get started, clone the repo at: .....
+And then:
+```
+npm install
+npm run start
+```
 
-## Available Scripts
+## Instructions:
+The tasks below try to simulate a real-life work flow as a frontend developer, focusing on using React as your major tool. Judgement will be made not solely on completion of the tasks, but also other factors such as: Knowledge of fundamental javascript concepts, code refactoring and optimization, use of best practices etc.
 
-In the project directory, you can run:
+PLEASE NOTE: You're not to use any external libraries, other than the ones already provided.
 
-### `npm start`
+Estimated completion time for tasks is about 4 hours. But I'm sure you can do it in less ;)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Task 1 (JSON Search):
+Write a simple utility function that searches through a JSON object / array using a given string query, and returns the appropriate value.
+Reference: `/utils/utils.js`
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Task 2 (Client Side Filter):
+Add functionality to the input field, such that any input provided, filters the available providers based on their Name, address or Type. 
+Hint: The JSON search function you wrote earlier should come in handy here.
+Reference: `/layouts/ExplorePage.jsx`
 
-### `npm test`
+### Task 3 (Server Side Search):
+Complete the AutoCompleteDropDown component. On input it should make a request to server to search through the provider list. The response should be rendered in the dropdown.
+Reference: `/components/common/AutoCompleteDropDown.jsx`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Task 4 (Form Submission)
+Complete the NewProviderForm to allow creation of new Providers.
+Reference:
+`/components/NewProvider.jsx`
+`/components/forms/NewProviderForm.jsx`
 
-### `npm run build`
+### Task 5 (View Provider)
+Add functionality where necessary to navigate to a new route for viewing a selected provider.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Task 6 (Redux)  
+Lol. Just kidding. Thats all....for now :smiling_imp: .
+Feel free to improve and optimize the codebase however you like. Ensure you mention whatever optimization you made in the submission mail though, along with the thought process behind it as well.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Submission
+Once done, upload your submission to your Github repo, and send an email to [mailto:tech@reliancehmo.com?subject=RelianceHMO Frontend Developer Interview Submission](tech@reliancehmo.com).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Best of luck! ::v::skin-tone-5:
