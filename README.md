@@ -40,6 +40,6 @@ Lol. Just kidding. Thats all....for now :smiling_imp: .
 Feel free to improve and optimize the codebase however you like. Ensure you mention whatever optimization you made in the submission mail though, along with the thought process behind it as well.
 
 ## Submission
-Once done, upload your submission to your Github repo, and send an email to [mailto:tech@reliancehmo.com?subject=RelianceHMO Frontend Developer Interview Submission](tech@reliancehmo.com).
+Once done, upload your submission to your Github repo, and send an email to [tech@reliancehmo.com](mailto:tech@reliancehmo.com?subject=RelianceHMO Frontend Developer Interview Submission).
 
 Best of luck! ::v::skin-tone-5:
