@@ -8,7 +8,7 @@ npm install
 npm run start
 ```
 
-API docs can be found (/docs)[here]
+API docs can be found [here](https://bitbucket.org/kangpeinc/front-dev-interview/src/master/doc/API.md)
 
 ## Instructions:
 The tasks below try to simulate a real-life work flow as a frontend developer, focusing on using React as your major tool. Judgement will be made not solely on completion of the tasks, but also other factors such as: Knowledge of fundamental javascript concepts, code refactoring and optimization, use of best practices etc.

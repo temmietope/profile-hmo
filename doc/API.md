@@ -10,7 +10,7 @@ Endpoints:
 
 ---
 
- ## APIS
+## APIS
 
 #### **`GET` /providers?q=<search query>**
 > Get list of providers. To perform a search pass a query param to the endpoint.
