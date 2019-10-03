@@ -1,10 +1,14 @@
 ## SET UP:
-To get started, clone the repo at: .....
+To get started, clone this repo
+
+
 And then:
 ```
 npm install
 npm run start
 ```
+
+API docs can be found (/docs)[here]
 
 ## Instructions:
 The tasks below try to simulate a real-life work flow as a frontend developer, focusing on using React as your major tool. Judgement will be made not solely on completion of the tasks, but also other factors such as: Knowledge of fundamental javascript concepts, code refactoring and optimization, use of best practices etc.
@@ -40,6 +44,6 @@ Lol. Just kidding. Thats all....for now :smiling_imp: .
 Feel free to improve and optimize the codebase however you like. Ensure you mention whatever optimization you made in the submission mail though, along with the thought process behind it as well.
 
 ## Submission
-Once done, upload your submission to your Github repo, and send an email to [tech@reliancehmo.com]().
+Once done, upload your submission to your Github repo, and send an email to [mayaki@reliancehmo.com]().
 
 Best of luck! :v:

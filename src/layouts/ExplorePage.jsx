@@ -20,7 +20,7 @@ class ExplorePage extends React.Component {
       .then((data) => {
         this.setState({
           isLoading: false,
-          data
+          data: data.data
         });
       });
   }

@@ -5,12 +5,12 @@ import queryString from 'querystring';
  * @exports ApiService
  */
 
- const BASE_URL = "https://us-central1-sample-ae237.cloudfunctions.net/rhmoSampleProviderApi";
+ const BASE_URL = "https://rhmo-sample-api.herokuapp.com";
 
 class ApiService {
   static ENDPOINTS = {
-    providers: `${BASE_URL}/api/providers`,
-    imageUpload: `${BASE_URL}/api/upload`
+    providers: `${BASE_URL}/providers`,
+    imageUpload: `${BASE_URL}/upload`
 
   }
 

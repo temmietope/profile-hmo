@@ -80,7 +80,7 @@ Response:`ERROR`
 }
 ```
 
-#### **`GET` /providers/{id} **
+#### **`GET` /providers/{id}**
 > Get details of a specific provider.
 > 
 
@@ -115,7 +115,7 @@ Response:`ERROR`
 
 ---
 
-#### **`POST` /uploads>**
+#### **`POST` /upload**
 > Upload an Image.
 > 
 
