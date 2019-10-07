@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ProviderCard from './ProviderCard';
 
+
 const ProviderList = ({ providers }) => (
   <ul className="provider-list">
     {providers.length === 0 ? (
@@ -12,6 +13,7 @@ const ProviderList = ({ providers }) => (
       : providers.map(provider => (
         <ProviderCard
           key={provider.id}
+          id={provider.id}
           address={provider.location.address}
           imageUrl={provider.imageUrl}
           name={provider.name}

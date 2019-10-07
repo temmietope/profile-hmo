@@ -22,4 +22,21 @@ export const jsonGet = (json, query) => {
 
   // ============== CODE GOES BELOW THIS LINE :) ==============
 
+  // searchItem = query
+  // await fetch(`https://rhmo-sample-api.herokuapp.com/providers?q=${searchItem}`)
+  // .then((res) => res.json())
+
+  // return json.filter(({ name })=> {
+  //   return name.toLowerCase().includes(query.toLowerCase())
+  // })
+  const isMatch = (text) => {
+    if(typeof text === 'object'){
+     text = Object.values(text).join(" ")
+   }
+      return text.toLowerCase().includes(query.toLowerCase())
+    }
+ 
+  return json.filter(({ name, type, location }) => {
+    return isMatch(name) || isMatch(type) || isMatch(location)
+  })
 };

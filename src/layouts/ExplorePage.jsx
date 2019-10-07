@@ -4,6 +4,7 @@ import ProviderGrid from '../components/ProviderGrid';
 import NewProvider from '../components/NewProvider';
 import ApiService from '../utils/apiService';
 import LoadingScreen from '../components/common/LoadingScreen';
+import { jsonGet } from '../utils/utils';
 
 class ExplorePage extends React.Component {
   constructor(props) {
@@ -40,6 +41,10 @@ class ExplorePage extends React.Component {
     //
     // ============== CODE GOES BELOW THIS LINE :) ==============
     
+    this.setState({isLoading:true})
+    const { data } = this.state
+    const filteredData = jsonGet(data, event.target.value )
+    this.setState({ data: filteredData, isLoading:false})
   }
 
   render() {
